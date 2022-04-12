@@ -1,9 +1,27 @@
+.App {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+}
+
+.App a {
+  color: #d114db;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.App a:hover {
+  color: #a70af2;
+}
+
 .App-header {
   margin: 30px auto;
   text-align: center;
   font-size: 24px;
+  font-family: "Merriweather", serif;
 }
 
 .App-footer {
+  margin: 30px auto;
   text-align: center;
+  font-size: smaller;
 }
