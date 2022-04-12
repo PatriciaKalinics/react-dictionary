@@ -1,14 +1,14 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Word from "./Word";
 import "./Dictionary.css";
 
 export default function Dictionary() {
   let [query, setQuery] = useState("");
+  let [result, setResult] = useState(null);
 
   function handleResponse(response) {
-    let word = response.data[0];
-    console.log(word);
-    alert(`${word.word} (${word.meanings[0].partOfSpeech})`);
+    setResult(response.data[0]);
   }
 
   function search(event) {
@@ -31,6 +31,7 @@ export default function Dictionary() {
           onChange={updateQuery}
         ></input>
       </form>
+      <Word data={result} />
     </div>
   );
 }

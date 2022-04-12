@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App container">
       <div className="row justify-content-md-center">
-        <header className="App-header">Dictionary</header>
         <Dictionary />
         <footer className="App-footer">
           <a

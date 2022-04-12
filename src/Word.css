@@ -1,0 +1,11 @@
+.Word {
+  margin: 30px auto;
+}
+
+.Word ol {
+  text-align: left;
+}
+
+.Word li {
+  margin: 5px 0;
+}
