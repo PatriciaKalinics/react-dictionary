@@ -41,3 +41,8 @@
 .Synonyms {
   color: rgba(238, 238, 238, 0.6);
 }
+
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
