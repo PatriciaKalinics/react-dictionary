@@ -37,3 +37,7 @@
   /* Firefox 18- */
   color: var(--dark-text-color);
 }
+
+.Synonyms {
+  color: rgba(238, 238, 238, 0.6);
+}
